@@ -1,0 +1,14 @@
+Runtime data area in JVM can be divided as below,
+
+Method Area : Storage area for compiled class files. (One per JVM instance)
+
+Heap : Storage area for Objects. (One per JVM instance)
+
+Java stack: Storage area for local variables, results of intermediate operations. (One per thread)
+
+PC Register : Stores the address of the next instruction to be executed if the next instruction is native method then the value in pc register will be undefined. (One per thread)
+
+Native method stacks : Helps in executing native methods (methods written in languages other than Java). (One per thread)
+
+for more details : 
+https://www.geeksforgeeks.org/java-memory-management/
