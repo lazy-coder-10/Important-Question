@@ -1,0 +1,17 @@
+Extension functions: These are the functions that helps us to extend the functionality
+of the class without getting into the code of that class
+i.e. you just have to call the function of the class.
+
+Ex. 
+
+fun Int.triple(): Int {
+    return this * 3
+}
+
+fun main(args: Array<String>) {
+    var result = 10.triple()
+    println(result)
+}
+
+In the above example, we have made one function triple(), which triples the value of an integer.
+So, in the main function, we have used the extension function calling to tripple the value passed i.e. 10 in our case.
